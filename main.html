@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap practice</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+  </head>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450__340.jpg
+  https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg
+  https://cdn.pixabay.com/photo/2016/11/14/04/36/boy-1822614__340.jpg -->
+  
 
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner carousel slide" id="myCarousel" class="">
+      <div class="carousel-item active first-slide">
+        <img src="https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450__340.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item second-slide">
+        <img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297__340.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item third-slide active">
+        <img src="https://cdn.pixabay.com/photo/2016/11/14/04/36/boy-1822614__340.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item fourth-slide">
+        <img src="https://cdn.pixabay.com/photo/2018/04/06/00/25/trees-3294681__340.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item fifth-slide ">
+        <img src="https://cdn.pixabay.com/photo/2013/07/25/01/31/forest-166733__340.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+
+
+    <button class="carousel-control-prev carousel-control left glyphicon" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon  glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next  carousel-control glyphicon right" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon  glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"> </script>
+<!-- <script type="text/javascript" src="./script.js"> -->
 </body>
-
 </html>
